@@ -19,3 +19,9 @@
 .usermotto {
   margin-top: 200px;
 }
+
+view {
+  text-align: center;
+  font-size: 60rpx;
+  color: red;
+}

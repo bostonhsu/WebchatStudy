@@ -5,9 +5,15 @@ const app = getApp()
 Page({
   data: {
     motto: 'Hello World',
+    helloworld: '你好',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
+  },
+  click:function() {
+    this.setData({
+      helloworld: '我也好'
+    })
   },
   //事件处理函数
   bindViewTap: function() {
