@@ -1,0 +1,17 @@
+<view class="body" >
+    <view class="flex-row" >
+        <view bindtap='c' class="{{btnc}}">C</view>
+        <view bindtap='d' class="{{btnd}}">D</view>
+        <view bindtap='e' class="{{btne}}">E</view>
+        <view bindtap='f' class="{{btnf}}">F</view>
+        <view bindtap='g' class="{{btng}}">G</view>
+        <view bindtap='a' class="{{btna}}">A</view>
+        <view bindtap='b' class="{{btnb}}">B</view>
+    </view>
+    <view >
+     <image mode="scaleToFill" src="{{src}}"></image>    
+    </view>   
+</view>    
+<view class="foot">
+<text>制作人易伟</text>
+</view>

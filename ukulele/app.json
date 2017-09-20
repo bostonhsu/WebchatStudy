@@ -1,0 +1,8 @@
+{
+  "pages":[
+    "pages/uk/uk"
+  ],
+ "window":{
+    "navigationBarTitleText": "ukulele和弦查询"
+  }
+}
