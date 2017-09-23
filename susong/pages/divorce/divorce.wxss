@@ -1,0 +1,25 @@
+/**marry.wxss**/
+
+
+.page1 {
+  margin-top: 40rpx;
+  margin-left:40rpx;   
+  margin-right: 40rpx; 
+  font-size: 47rpx;
+}
+.body1{
+  font-size:45rpx;
+  background-color: mintcream;
+
+
+}
+.input1{
+  font-size: 43rpx;
+background-color:lightgrey;
+}
+
+.foot1{
+ font-size:38rpx;
+ position: relative;
+ left:25%;
+}

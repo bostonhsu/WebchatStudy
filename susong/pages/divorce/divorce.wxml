@@ -1,0 +1,29 @@
+<!--marry.wxml-->
+<view class="page1">
+    <view class="body1" >      
+      <form bindsubmit="formSubmit1" bindreset="formReset1"> 
+          <switch  bindchange="switch1Change" />是否涉及财产分割
+          <view wx:if="{{condition}}">   
+               <text>\n财产标的金额(单位元）:</text>   
+              <view class="input1">
+              <input name="input1"  placeholder="标的金额" type="number" /> 
+              </view>
+                <text>\n</text>
+              <view>
+              <button  formType="submit" type="primary">计算</button>
+                <text>\n</text>
+              <button formType="reset">重置</button>   
+              </view>
+              <text>\n诉讼费为{{fei3}}元,减半收取为{{fei4}}元</text>
+          </view>
+          <view wx:else>
+              <text>不涉及财产分割的诉讼费为300元，减半收取为150元 </text>
+          </view>
+
+      </form>
+   </view>
+
+  <view class="foot1">
+  <text >\n制作人:易伟</text>
+  </view>
+</view>
