@@ -1,0 +1,18 @@
+<!--pages/person/person.wxml-->
+<view class="page">
+  <!--banner-->
+  <view>
+    <swiper indicator-dots='true' autoplay='true' interval='5000' duration='1000'>
+      <block wx:for='{{imgUrls}}'>
+        <swiper-item>
+          <image src='{{item}}' class='pic'/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!--shower-->
+  <view class='body'>
+    <text>摩纳哥石油大王的独生女，天生的富家小姐。4年前，她在被绑架犯袭击时，慌乱间突然大发雷霆将一伙犯人全部打倒在地，从此以后便喜欢上了将人打倒的感觉。</text>
+  </view>
+
+</view>

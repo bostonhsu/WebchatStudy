@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="page">
+  <!--banner-->
+  <view>
+    <swiper indicator-dots='true' autoplay='true' interval='5000' duration='1000'>
+      <block wx:for='{{imgUrls}}'>
+        <swiper-item>
+          <image src='{{item}}' class='pic'/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!--shower-->
+  <view class='body'>
+    <view class='left'>
+      <view class='l1'>
+        <navigator url='../person/person'><image class='pic1' src='../images/1.png'></image></navigator>
+      </view>
+      <view class='l2'>
+        <text>个人简介</text>
+      </view>
+      <view class='l3'>
+        <navigator url='../map/map'><image class='pic1' src='../images/3.png'></image></navigator>
+      </view>
+      <view class='l4'><text>地图导航</text></view>
+    </view>
+    <view class='right'>
+      <view class='l1'>
+        <navigator url='../case/case'><image class='pic1' src='../images/2.png'></image></navigator>
+      </view>
+      <view class='l2'><text>典型案例</text></view>
+      <view class='l3' bindtap='phone'><image class='pic1' src='../images/4.png'></image></view>
+      <view class='l4'><text>联系方式</text></view>
+    </view>
+  </view>
+  <view class='foot'>单击右侧，联系客服=><contact-button size='27'></contact-button></view>
+</view>

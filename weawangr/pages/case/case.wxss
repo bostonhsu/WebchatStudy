@@ -1,0 +1,6 @@
+.page{
+margin: 0rpx 10rpx 0rpx 10rpx
+}
+.pic{
+width:100%;
+}
