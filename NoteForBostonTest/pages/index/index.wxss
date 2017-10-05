@@ -1,21 +1,59 @@
 /**index.wxss**/
-.userinfo {
+.page {
+  margin: 0rpx, 50rpx, 50rpx, 50rpx;
+}
+
+.item {
+  margin: 25rpx, 0rpx, 25rpx, 0rpx;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  background-color: lightblue;
   align-items: center;
 }
 
-.userinfo-avatar {
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  flex: 1;
+  font-size: 30rpx;
+}
+
+.note {
+  flex: 1;
+}
+
+.note text {
+  background-color: lightgreen;
+  font-size: 70rpx;
+  color: blue;
+}
+
+.pic {
   width: 128rpx;
   height: 128rpx;
   margin: 20rpx;
   border-radius: 50%;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.bottom {
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
 }
 
-.usermotto {
-  margin-top: 200px;
+.input {
+  flex: 4;
+  text-align: left;
+}
+
+.btn {
+  flex: 1;
 }
